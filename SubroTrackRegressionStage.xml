@@ -1,0 +1,148 @@
+<suite name="SubroTrack" parallel="false">
+    <suite-files>
+    
+    // Activity Log   
+	<suite-file path="src/com/subrotrack/regression/activitylog/business/ActivityLogBusinessStage.xml"/>       
+    <suite-file path="src/com/subrotrack/regression/activitylog/functional/ActivityLogFunctionalStage.xml"/>
+    
+    // Add New Case  
+    <suite-file path="src/com/subrotrack/regression/addnewcase/business/AddNewCaseBusinessStage.xml"/> 
+    <suite-file path="src/com/subrotrack/regression/addnewcase/functional/AddNewCaseFunctionalStage.xml"/>
+    
+    // Advance Search    
+    <suite-file path="src/com/subrotrack/regression/advancesearch/business/AdvanceSearch_BusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/advancesearch/functional/AdvanceSearch_FunctionalStage.xml"/>
+    
+	// Audit Check 
+    <suite-file path="src/com/subrotrack/regression/auditchecks/business/AuditChecksBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/auditchecks/functional/AuditChecksFunctionalStage.xml"/>
+    
+<!--     // Auto Case Assignment 
+    <suite-file path="src/com/subrotrack/regression/autocaseassignment/business/AutoCaseAssignmentBusinessStage.xml"/>     
+    <suite-file path="src/com/subrotrack/regression/autocaseassignment/functional/AutoCaseAssignmentFunctionalStage.xml"/>
+ -->
+    // Back Button  
+    <suite-file path="src/com/subrotrack/regression/backbutton/BackButtonStage.xml"/>
+    
+    // Case Client  
+    <suite-file path="src/com/subrotrack/regression/caseclients/business/CaseClientsBusinessStage.xml"/>         
+    <suite-file path="src/com/subrotrack/regression/caseclients/functional/CaseClientsFunctionalStage.xml"/>
+    
+    // Case Foot Prints  
+    <suite-file path="src/com/subrotrack/regression/casefootprints/business/CaseFootPrintsBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/casefootprints/functional/CaseFootPrintsFunctionalStage.xml"/>
+    
+<!--     // Check Log 
+    <suite-file path="src/com/subrotrack/regression/checklog/business/ChekLogBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/checklog/functional/ChekLog_FunctionalStage.xml"/>
+ --> 
+    // Claim Summary  
+    <suite-file path="src/com/subrotrack/regression/claimsummary/business/ClaimSummaryBusinessStage.xml"/>   
+    <suite-file path="src/com/subrotrack/regression/claimsummary/functional/ClaimSummaryFunctionalStage.xml"/>
+    
+    // Client Setup  
+    <suite-file path="src/com/subrotrack/regression/clientsetup/business/ClientSetup_BusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/clientsetup/functional/ClientSetup_FunctionalStage.xml"/>
+     
+    // Contacts  
+    <suite-file path="src/com/subrotrack/regression/contacts/business/ContactsBusinessStage.xml"/>  
+    <suite-file path="src/com/subrotrack/regression/contacts/functional/ContactsFunctionalStage.xml"/>
+    
+    // Copy Case  
+    <suite-file path="src/com/subrotrack/regression/copycase/business/CopyCaseBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/copycase/functional/CopyCaseFunctionalStage.xml"/>
+    
+    // Document  
+	<suite-file path="src/com/subrotrack/regression/document/business/DocumentBusinessStage.xml"/>
+	<suite-file path="src/com/subrotrack/regression/document/functional/Document_FunctionalStage.xml"/>
+	
+	// Edit Case 
+    <suite-file path="src/com/subrotrack/regression/editcase/business/EditCaseBusinessStage.xml"/>  
+    <suite-file path="src/com/subrotrack/regression/editcase/functional/EditCaseFunctionalStage.xml"/>  
+ 
+ 	// Full To Do List 
+    <suite-file path="src/com/subrotrack/regression/fulltodolist/business/FullToDoListBusinessStage.xml"/>  
+    <suite-file path="src/com/subrotrack/regression/fulltodolist/functional/FullToDoListFunctionalStage.xml"/>
+ 
+    // Group Setup  
+    <suite-file path="src/com/subrotrack/regression/groupsetup/business/GroupSetup_BusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/groupsetup/functional/GroupSetup_FunctionalStage.xml"/>
+	
+ 	// ISO Manual  
+    <suite-file path="src/com/subrotrack/regression/ISOManual/business/ISOManual_BusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/ISOManual/functional/ISOManual_FunctionalStage.xml"/>
+ 
+	// Letters  
+    <suite-file path="src/com/subrotrack/regression/letters/business/Letters_BusinessStage.xml"/>
+	<suite-file path="src/com/subrotrack/regression/letters/functional/Letters_FunctionalStage.xml"/>
+	
+ 	// Mass CaseAssignments
+    <suite-file path="src/com/subrotrack/regression/massaaseassignment/Business/MassCaseReassignment_BusinessStage.xml"/>
+	<suite-file path="src/com/subrotrack/regression/massaaseassignment/functional/MassCaseReassignment_FunctionalStage.xml"/>
+	
+	// Medical Disability Claims 
+	<suite-file path="src/com/subrotrack/regression/medicaldisability/business/MedicalDisBusinessStage.xml"/> 
+    <suite-file path="src/com/subrotrack/regression/medicaldisability/functional/MedcalDisFunctionalStage.xml"/>
+    
+ 	// Medical Payment Summary 
+    <suite-file path="src/com/subrotrack/regression/medicalpaymentsummary/business/MedicalPaymentSummaryBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/medicalpaymentsummary/functional/MedicalPaymentSummaryFunctionalStage.xml"/>
+    
+<!--     // Move Claims 
+    <suite-file path="src/com/subrotrack/regression/moveclaims/business/MoveClaimBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/moveclaims/functional/MoveClaimFunctionalStage.xml"/>
+ --> 
+    // Negotations 
+    <suite-file path="src/com/subrotrack/regression/negotiations/business/NegotationsBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/negotiations/functional/NegotationsFunctionalStage.xml"/>
+    
+	// ODAR 
+    <suite-file path="src/com/subrotrack/regression/ODAR/business/ODARBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/ODAR/functional/ODARFunctionalStage.xml"/>
+         
+    // Pharmacy Claim 
+    <suite-file path="src/com/subrotrack/regression/pharmacyclaims/business/PharmacyClaimsBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/pharmacyclaims/functional/PharmacyClaims_FunctionalStage.xml"/>
+    
+	// Quick Search 
+    <suite-file path="src/com/subrotrack/regression/quicksearch/QuickSearchStage.xml"/>
+    
+    // Recent Cases 
+    <suite-file path="src/com/subrotrack/regression/recentcases/business/RecentCases_BusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/recentcases/functional/RecentCases_FunctionalStage.xml"/>
+     
+    // Recovery
+   	<suite-file path="src/com/subrotrack/regression/recovery/business/RecoveryBusinessStage.xml"/>
+   	<suite-file path="src/com/subrotrack/regression/recovery/functional/Recovery_FunctionalStage.xml"/>
+    
+	// Request All Claims 
+    <suite-file path="src/com/subrotrack/regression/requestallclaims/business/RequestAllClaimsBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/requestallclaims/functional/RequestAllClaimsFunctionalStage.xml"/>
+    
+    // Restricted Mode 
+    <suite-file path="src/com/subrotrack/regression/restrcitedmode/RestrictedModeStage.xml"/>
+    
+<!--     // Special Instructions 
+    <suite-file path="src/com/subrotrack/regression/specialinstructions/business/SpecialInstructions_BusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/specialinstructions/functional/SpecialInstructions_FunctionalStage.xml"/>
+ -->
+    // To Do List 
+    <suite-file path="src/com/subrotrack/regression/todolist/business/ToDoBusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/todolist/functional/ToDoFunctionalStage.xml"/>
+     
+<!--     // To Do Queue 
+    <suite-file path="src/com/subrotrack/regression/todoqueues/business/TodoQueues_BusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/todoqueues/functional/ToDoQueue_FunctionalStage.xml"/>
+     
+    // WebResposne 
+    <suite-file path="src/com/subrotrack/regression/webresponse/business/WebResponse_BusinessStage.xml"/>
+    <suite-file path="src/com/subrotrack/regression/webresponse/functional/WebResponse_FunctionalStage.xml"/>
+    
+     // Login And Password
+    <suite-file path="src/com/subrotrack/regression/loginandpassword/loginPasswordStage.xml"/>
+
+    // SessionExpire 
+    <suite-file path="src/com/subrotrack/regression/sessionexpire/SessionExpireStage.xml"/>
+ -->
+    </suite-files>
+</suite> <!-- Suite -->

@@ -1,0 +1,39 @@
+<suite name="SubroTrack" parallel="false">
+    <suite-files>
+    <suite-file path="src/com/subrotrack/regression/activitylog/functional/ActivityLogFunctional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/addnewcase/functional/AddNewCaseFunctional.xml"/>  
+    <suite-file path="src/com/subrotrack/regression/advancesearch/functional/AdvanceSearch_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/auditchecks/functional/AuditChecksFunctional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/autocaseassignment/functional/AutoCaseAssignmentFunctional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/caseclients/functional/CaseClients_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/casefootprints/functional/CaseFootPrintsFunctional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/checklog/functional/ChekLog_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/claimsummary/functional/ClaimSummary_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/clientsetup/functional/ClientSetup_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/contacts/functional/Contacts_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/copycase/functional/CopyCaseFunctional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/document/functional/Document_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/editcase/functional/EditCaseFunctional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/fulltodolist/functional/FullToDoListFunctional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/groupsetup/functional/GroupSetup_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/letters/functional/Letters_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/massaaseassignment/functional/MassCaseReassignment_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/medicaldisability/functional/MedcalDisFunctional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/medicalpaymentsummary/functional/MedicalPaymentSummary_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/moveclaims/functional/MoveClaim_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/negotiations/functional/Negotations_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/pharmacyclaims/functional/PharmacyClaims_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/recentcases/functional/RecentCases_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/recovery/functional/Recovery_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/requestallclaims/functional/RequestAllClaims_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/specialinstructions/functional/SpecialInstructions_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/todolist/functional/ToDoFunctional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/todoqueues/functional/ToDoQueue_Functional.xml"/>
+    <suite-file path="src/com/subrotrack/regression/webresponse/functional/WebResponse_Functional.xml"/>
+        
+    <!-- InSprint  -->
+ 	<suite-file path="src/com/subrotrack/release9/pi8/sprint1/Sprint_1_INSprint_TestCases.xml"/>
+ 	<suite-file path="src/com/subrotrack/release9/pi8/sprint2/Sprint_2_INSprint_TestCases.xml"/>    
+ 	
+ 	</suite-files>
+</suite> 

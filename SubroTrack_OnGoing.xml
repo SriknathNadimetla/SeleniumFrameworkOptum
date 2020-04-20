@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ONGOING" parallel="false">
+	<test name="ONGOING">
+		<classes>
+	 <class name="com.subrotrack.regression.todoqueues.business.TC07_Verify_Transactions_Queue_Rec_Cor_NoRuleMatch"/>  
+       
+         <class name="com.subrotrack.regression.activitylog.business.TC04_Verify_Activity_When_OpenCase_Is_Closed_And_Then_Reopened"/>
+  	    <class name="com.subrotrack.regression.activitylog.business.TC05_Verify_Activities_FaxOut_LetterOut_EmailOut"/>
+  	  	<class name="com.subrotrack.regression.activitylog.business.TC06_Verify_Activities_Through_AddAttachement_FaxOut_LetterOut_EmailOut"/>
+  	  	<class name="com.subrotrack.regression.activitylog.business.TC08_Verify_PCDResults_ElasticSearchLink"/>
+  	    <class name="com.subrotrack.regression.addnewcase.business.TC04_Verify_Add_New_Case_EditCase_Fields_Before_After_GroupAdd"/>
+  	  	<class name="com.subrotrack.regression.addnewcase.functional.US402755_TC01_Verify_Court_Case_Number_on_Add_Case_page"/>
+  	  	 <class name="com.subrotrack.regression.advancesearch.business.TC07_Verify_Search_Fname_Lname_SSN_DOB_MemberID"/>
+  	  	 <class name="com.subrotrack.regression.advancesearch.business.TC11_ST_Verify_Add_New_Case_Contacts"/>
+  	    <class name="com.subrotrack.regression.advancesearch.functional.US402753_TC01_Verify_Court_Case_NumberFeild_on_AdvanceSearch_page"/>
+  	  	<class name="com.subrotrack.regression.advancesearch.functional.US402753_TC02_Verify_Court_Case_Number_AdvanceSearch_SingleCaseResult"/>
+  	   <class name="com.subrotrack.regression.auditchecks.business.TC03_Verify_Change_Status_Functionality_Rejected"/>    	                             
+  	   <class name="com.subrotrack.regression.auditchecks.business.TC04_Verify_Change_Status_Functionality_Approved"/>
+  	   <class name="com.subrotrack.regression.autocaseassignment.business.TC01_AutoCaseAssignment_Verify_Analyst_to_AutoCaseAssignmentFunctionality" />
+  	   <class name="com.subrotrack.regression.autocaseassignment.business.TC02_AutoCaseAssignment_Verify_SecureClientAnalyst_to_AutoCaseAssignmentFunctionality" />
+  	   <class name="com.subrotrack.regression.autocaseassignment.business.TC03_AutoCaseAssignment_Verify_BlockedAnalyst_AutoCaseAssignmentFunctionality" />
+	   <class name="com.subrotrack.regression.autocaseassignment.business.TC04_AutoCaseAssignment_Verify_Analyst_to_AutoCaseAssignmentFunctionality_For_CDA_CaseSetup" />
+	   <class name="com.subrotrack.regression.autocaseassignment.functional.TC01_AutoCaseAssignment_Filters_Layout_Screen_Validation"/>
+	   <class name="com.subrotrack.regression.autocaseassignment.functional.TC03_AutoCaseAssignment_Functionality_For_Open_Case"/>
+	   <class name="com.subrotrack.regression.autocaseassignment.functional.TC06_ToDoQueue_RecCor_When_ToDo_Not_Satisfy_AnyAssoicateRule"/>
+	   <class name="com.subrotrack.regression.casefootprints.business.TC01_Verify_Case_FootPrints_For_Edit_Case"/>
+       <class name="com.subrotrack.regression.casefootprints.business.TC02_Verify_Case_FootPrints_For_Edit_Case_Add_Remove_Client"/>
+       <class name="com.subrotrack.regression.casefootprints.business.TC03_Verify_Case_FootPrints_For_Case_Link_And_Unlink"/>
+       <class name="com.subrotrack.regression.casefootprints.business.TC04_Verify_Case_FootPrints_For_Add_And_Edit_Contact"/>
+       <class name="com.subrotrack.regression.casefootprints.business.TC06_Verify_Case_FootPrints_When_OpenCase_Is_Closed_And_Then_Reopened"/>
+	   <class name="com.subrotrack.regression.clientsetup.business.TC01_Validate_Client_Details_with_Search_Edit_Verify_Client_Setup_screen"/>
+  		<class name="com.subrotrack.regression.clientsetup.business.TC03_Verify_Client_As_Secure_TickMark"/>
+       <class name="com.subrotrack.regression.clientsetup.functional.US462504_CAP_Tables_for_decoupling_and_maintiaing_configurations"/>
+       <class name="com.subrotrack.regression.contacts.business.TC03_Verify_Add_Contact_Edit_Case_Details_screen"/>
+      <class name="com.subrotrack.regression.document.business.TC01_Verify_Add_Edit_Remove_Document"/>
+      <class name="com.subrotrack.regression.document.business.TC02_Verify_Size_Limit_More_Than_5MB"/>
+      <class name="com.subrotrack.regression.document.business.TC03_Verify_Error_While_Uploading_Invalid_Extension_File"/>
+       <class name="com.subrotrack.regression.document.business.TC05_Validation_For_Sorting_Functionality"/>
+  	  <class name="com.subrotrack.regression.editcase.business.TC01_Verify_Case_Status_From_Eval_To_Open"/>
+	  <class name="com.subrotrack.regression.editcase.business.TC02_Verify_Case_Status_From_Eval_To_Close"/>
+	  <class name="com.subrotrack.regression.editcase.business.TC04_Verify_Case_Status_From_Close_To_Open"/>
+	        <class name="com.subrotrack.regression.editcase.business.TC06_Verify_Injury_Questions_For_Case_Types"/>
+     <class name="com.subrotrack.regression.editcase.business.TC08_Verify_Save_And_AutoAssignment_Button_When_Case_Status_From_Eval_To_Open"/>
+   <class name="com.subrotrack.regression.editcase.business.TC12_Verify_CaseFootPrints_With_Previous_Value"/>
+      <class name="com.subrotrack.regression.editcase.business.TC13_Verify_ToDO_When_Client_As_To_Be_Assigned"/>
+      <class name="com.subrotrack.regression.editcase.business.TC14_Verify_Case_Status_From_Eval_To_Open_CaseAnalyst_PCDQueue"/>
+      <class name="com.subrotrack.regression.editcase.business.TC15_Verify_EditCase_Fields_Before_After_Group_Add"/>
+      <class name="com.subrotrack.regression.editcase.business.TC16_Verify_Body_Part_Selection_Tool"/>
+      <class name="com.subrotrack.regression.editcase.functional.TC01_Verify_Mandatory_Fields_On_EditCase_Details_Screen"/>
+      <class name="com.subrotrack.regression.editcase.functional.TC02_Verify_The_Erisa_And_Non_Erisa_Fields"/>
+      <class name="com.subrotrack.regression.editcase.functional.TC03_Verify_That_The_Injury_Date_Must_Be_After_Statute_Of_Limitations_Date"/>
+      <class name="com.subrotrack.regression.editcase.functional.TC04_Verify_Source_FundingType_AppLaw_And_State_Of_Injury_Drop_Down_List_Values"/>
+      <class name="com.subrotrack.regression.editcase.functional.TC05_Verify_Stop_Loss_And_Synopsis_Field"/>
+	  <class name="com.subrotrack.regression.editcase.functional.TC06_Verify_The_Functionality_Of_Update_Button_For_Appl_Law_And_Statute_of_Lim_Field"/>
+	  <class name="com.subrotrack.regression.editcase.functional.TC07_Verify_Special_Instruction_Functionalities"/>
+	  <class name="com.subrotrack.regression.editcase.functional.TC08_Changing_Primary_Patient"/>
+	  <class name="com.subrotrack.regression.editcase.functional.TC09_Verify_Case_Reopen_with_Reason_Received_Final_Check"/>
+	  <class name="com.subrotrack.regression.editcase.functional.TC10_Verify_LastOpenDate_EditCaseDetailsPage"/>
+	  <class name="com.subrotrack.regression.editcase.functional.US519405_TC01_Verify_Last_Opened_date_CaseDetails_CaseFootprints_Screens"/>
+	  <class name="com.subrotrack.regression.fulltodolist.functional.TC02_Verify_Sorting_On_Contact_And_Remaining_Balance_Columns"/>
+      <class name="com.subrotrack.regression.fulltodolist.functional.US501320_BDD_FullToDo_List_Usability_Enhansements"/>
+       <class name="com.subrotrack.regression.letters.business.TC04_ST_Letters_Verify_FreeFormText_ResponseFullyInsuredMadeWholeAR_Bus"/>
+      <class name="com.subrotrack.regression.letters.business.TC05_ST_Letters_WCInsurance_Work_Comp_Demand_Remaining_Amount_169"/>
+      <class name="com.subrotrack.regression.letters.business.TC06_ST_Letters_Generate_Letter_Notice_Letter_DATY_144"/>
+      <class name="com.subrotrack.regression.letters.business.TC07_ST_Letters_Validation_of_Notice_Letter_Patient_with_PATY_146"/>
+      <class name="com.subrotrack.regression.letters.business.TC08_ST_Letters_Generate_Letter_Notice_Letter_PATY_97"/>
+      <class name="com.subrotrack.regression.letters.business.TC09_ST_Letters_Validation_of_Position_Summary_Statement_337"/>
+      <class name="com.subrotrack.regression.letters.business.TC10_ST_Verify_Add_Attachment_Functionality"/>
+      <class name="com.subrotrack.regression.letters.business.TC01_ST_Letters_Verify_DynamicQuestionsCheckBox_InformationQuestionnaire_Bus"/>
+      <class name="com.subrotrack.regression.letters.business.TC02_ST_Letters_Verify_RadioButtonsOptions_NoticeWCInsurance_UMR_Bus"/>
+      <class name="com.subrotrack.regression.letters.business.TC03_ST_Letters_Verify_DropDown_EditableLetter_ResponseAhlborn_Bus"/>
+  
+  	<class name="com.subrotrack.regression.letters.functional.US461095_BDD_RequestReimbursement_Double_Payment_Letter_ID339"/>
+    	<class name="com.subrotrack.regression.letters.functional.US502757_BDD_ST_Letters_Enhancements_to_Unable_to_Locate_Party_Letter_Template_ID_15"/>
+    	<class name="com.subrotrack.regression.letters.functional.US502757_TC01_Verify_Send_Letter_Screen_For_PATY_And_ERISA"/>
+    	<class name="com.subrotrack.regression.medicaldisability.business.TC03_Verify_Add_Claim_With_Multiple_ICD_Codes"/> 
+    	<class name="com.subrotrack.regression.medicaldisability.functional.TC06_Include_And_Exclude_Functionality" />
+		<class name="com.subrotrack.regression.medicaldisability.functional.TC07_Show_For_Patient_Claims_Functionally" />
+		<class name="com.subrotrack.regression.medicaldisability.functional.TC10_Claim_Details_Page_For_Claim_Line_Information" />
+		<class name="com.subrotrack.regression.medicaldisability.functional.TC12_14_Edit_Claim_For_Header_Level_Information" />
+		<class name="com.subrotrack.regression.negotiations.functional.TC01_Verify_Add_Negotiation_Page_Elements_And_Validations"/>
+    	<class name="com.subrotrack.regression.recovery.business.TC01_Verify_Add_Edit_Remove_Recovery_For_Apply_To_Claims"/>
+    	<class name="com.subrotrack.regression.recovery.business.TC08_Verify_Recovery_Apply_To_Claims_3Patients_2Client"/>
+       <class name="com.subrotrack.regression.recovery.business.TC09_Verify_Recovery_Link_Unlink_Check"/>
+ 		<class name="com.subrotrack.regression.recovery.business.TC11_Verify_Recovery_DirectPay_2Patients_2Client"/>
+ 	     <class name="com.subrotrack.regression.recovery.functional.TC01_US355282_BDD_ODAR_Enhancements_Flag_on_Recovery_screens"/>
+      <class name="com.subrotrack.regression.specialinstructions.business.TC01_SI_Verify_UserSI_lessthan_100_Characters_AddingAndRemoving_OnCase"/>
+      <class name="com.subrotrack.regression.specialinstructions.business.TC02_SI_Verify_UserSI_morethan_100_Characters_AddingAndRemoving_OnCase"/>
+         <class name="com.subrotrack.regression.todolist.business.TC01_Verify_Associate_ToDo_Details_Manually_Created"/>
+      <class name="com.subrotrack.regression.todolist.business.TC02_Verify_Associate_ToDo_Details_System_Generated"/>
+      <class name="com.subrotrack.regression.todolist.business.TC08_Verify_ToDo_Name_After_Cache_Refresh"/> 
+      <class name= "com.subrotrack.regression.todoqueues.business.TC03_VerifyingTATODOTaskPriorityOrder"/>  
+      <class name="com.subrotrack.regression.todoqueues.business.TC07_Verify_Transactions_Queue_Rec_Cor_NoRuleMatch"/>
+      <class name="com.subrotrack.regression.todoqueues.functional.US462830_US462846_ToDoQueue_Negotiation_Analyst_ToDoAssignment"/>
+      <class name="com.subrotrack.regression.todoqueues.functional.US462849_Edit_Case_Details_Update_Case_Owner"/>
+      <class name="com.subrotrack.regression.todoqueues.functional.US473300_NegotiationToDo_Created_Automatic_With_Applicaton_WorkFlow"/>
+      <class name="com.subrotrack.regression.todoqueues.functional.US497322_Edit_Case_AutoCaseAssignment_QNToDoReevaluate"/>
+      <class name="com.subrotrack.regression.webresponse.business.TC13_WebResponse_Screen_2E_Changes_Open_Close_Flow"/>
+            
+<class name="com.subrotrack.regression.copycase.functional.US402755_TC02_Verify_Court_Case_Number_on_Copy_Case_Details_page"/>
+            	<class name="com.subrotrack.regression.specialinstructions.functional.TC01_SI_Verify_Edit_Functionality_in_User_System_Instructions" />
+                  <class name="com.subrotrack.regression.todolist.functional.US434600_BDD_Add_ToDo_Enhacement"/>
+            	<class name="com.subrotrack.release.pi10.US542963_TC04_Verify_Automated_Recovery_Waiting_FinancialCalender"/>
+			<class name="com.subrotrack.release.pi10_1.US560588_TC01_Verify_Automated_Recovery_FinalRecoveryCheck_AutoClose"/>
+                  <class name="com.subrotrack.regression.contacts.business.TC09_Add_Contact_Atty_1st_Party_Insurance_and_Verify_Letters"/>
+      <class name="com.subrotrack.regression.contacts.business.TC10_Add_Contacts_Lien_Resolution_Bankruptcy_Estate_Guardian_and_Verify_Letters"/>
+      <class name="com.subrotrack.regression.contacts.business.TC11_Add_Contacts_1st_party_UIM_PIP_Medpay_3rdparty_PIP_MedPay_Verify_Letters"/>
+      <class name="com.subrotrack.regression.contacts.business.TC12_Add_Contact_3rd_Party_Insurer_BI_and_Verify_Letters"/>
+                  <class name="com.subrotrack.regression.copycase.business.TC02_Verify_CopyCase_Functionality_For_Patient_Contact_Cancel"/>
+                         
+			
+			
+       </classes>
+	</test>
+</suite>

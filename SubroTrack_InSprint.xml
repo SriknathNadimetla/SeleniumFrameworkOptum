@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SubroTrackInSprint" parallel="false">
+  <test name="SubroTrackInSprint">
+    <classes>
+      <suite-file path="src/com/subrotrack/release/pi10_1/PI10_1_INSprint_TestCases.xml"/>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
