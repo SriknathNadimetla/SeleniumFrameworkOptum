@@ -34,6 +34,7 @@
     <!-- InSprint  -->
  	<suite-file path="src/com/subrotrack/release9/pi8/sprint1/Sprint_1_INSprint_TestCases.xml"/>
  	<suite-file path="src/com/subrotrack/release9/pi8/sprint2/Sprint_2_INSprint_TestCases.xml"/>    
+ 	<suite-file path="Srikanth"/>    
  	
  	</suite-files>
 </suite> 
