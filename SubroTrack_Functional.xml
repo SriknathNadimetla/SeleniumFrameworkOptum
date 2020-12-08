@@ -29,7 +29,7 @@
     <suite-file path="src/com/subrotrack/regression/specialinstructions/functional/SpecialInstructions_Functional.xml"/>
     <suite-file path="src/com/subrotrack/regression/todolist/functional/ToDoFunctional.xml"/>
     <suite-file path="src/com/subrotrack/regression/todoqueues/functional/ToDoQueue_Functional.xml"/>
-    <suite-file path="src/com/subrotrack/regression/webresponse/functional/WebResponse_Functional.xml"/>
+    <suite-file path="src/com/fgfg/regression/webresponse/functional/WebResponse_Functional.xml"/>
         
     <!-- InSprint  -->
  	<suite-file path="src/com/subrotrack/release9/pi8/sprint1/Sprint_1_INSprint_TestCases.xml"/>
