@@ -147,6 +147,6 @@
 
     <!--  9.9 Release Insprint US -->     
     <suite-file path="/src/com/subrotrack/release/pi9_9/PI9_9_INSprint_TestCases.xml"/>  
-        
+    <!-- SessionExpire 2  -->        
     </suite-files>
 </suite> <!-- Suite -->
